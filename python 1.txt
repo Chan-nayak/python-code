@@ -1,0 +1,13 @@
+def check_string(name):
+    count_upper = 0
+    count_lower = 0
+    for chr in name:
+        if chr.isupper():
+            count_upper += 1
+        elif chr.islower():
+            count_lower += 1
+        else:
+            continue
+    print("No of upper case", count_upper)
+    print("No of lower case", count_lower)
+check_string('Hi Many people aRE Weird')

@@ -1,0 +1,7 @@
+def no_double(text):
+    x =[]
+    for n in text:
+        if n not in x:
+            x.append(n)
+    return x
+no_double([1,1,1,2,2,3,4,4,5,5,])
